@@ -1,0 +1,22 @@
+.tab-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tab-options {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+
+.selected-tab {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.unselected-tab {
+  padding: 10px 20px;
+  cursor: pointer;
+}
